@@ -36,7 +36,7 @@ export function TaskList() {
       isComplete: !task.isComplete
     } : task)
 
-    setTasks(newTasks)
+    
   }
 
   function handleRemoveTask(id: number) {
